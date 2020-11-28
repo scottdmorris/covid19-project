@@ -1,2 +1,4 @@
-# covid19-project
-This is my Covid-19 project website github repository
+#Life On Hold
+
+Life On Hold seeks to give insight into how the lives of college students in America were affected by the pandemic. Participants will be asked to record a video (horizontally) and introduce themselves and where they go to college and answer questions regarding their life before Covid-19 as well about where they are now. This includes their plans for the year, mental state, and thoughts on the pandemic and the future. Each participant would also share a photo of where they now spend most of their day such as their room as well as a photo of an object or hobby that has helped them destress during the pandemic. The final version of this project will be an interactive website and map based, allowing viewers to click on where the student is currently located to hear their story. 
+
