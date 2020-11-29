@@ -2,6 +2,9 @@ html{
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: dodgerblue;
+}
 #backgroundvideo {
   position: fixed;
   right: 0;
@@ -44,6 +47,7 @@ html{
   width: 30%;
   margin: auto;
   text-align: center;
+  float: center;
 }
 
 .content a {
@@ -51,7 +55,7 @@ html{
 }
 
 .stats{
-  top: 60%;
+  top: 70%;
   position: absolute;
   width: 1000px;
   height: 1000px;
