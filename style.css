@@ -57,8 +57,8 @@ body{
 .stats{
   top: 70%;
   position: absolute;
-  width: 1000px;
-  height: 1000px;
+  width: auto;
+  height: auto;
   overflow: hidden;
 }
 
