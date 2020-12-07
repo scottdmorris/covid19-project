@@ -51,6 +51,7 @@ body{
   text-align: center;
   float: center;
   margin: auto;
+  font-family: Georgia;
 }
 
 .content a {
@@ -79,6 +80,7 @@ body{
 }
 
 .writing{
+  display: block;
   position: absolute;
   padding-top: 50px;
   width: 900px;
