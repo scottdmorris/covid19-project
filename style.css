@@ -12,6 +12,7 @@ body{
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  z-index: -1;
 }
 
 .navbar {
@@ -44,7 +45,7 @@ body{
   position: absolute;
   background: rgb(255, 250, 250, 0.9);
   color: #000000;
-  top: 25%;
+  top: 20%;
   left: 50%;
   padding: 10px;
   width: 500px;
@@ -52,6 +53,7 @@ body{
   float: center;
   margin: auto;
   font-family: Georgia;
+  z-index: 1;
 }
 
 .content a {
@@ -59,14 +61,17 @@ body{
 }
 
 .stats{
-  display: flex;
+  display: fixed;
   align-items: center;
   justify-content: center;
   position: absolute;
   top: 60%;
-  width: 1080px;
+  left: 25%;
+  margin: auto;
+  width: 900px;
   height: 600px;
   overflow: hidden;
+  z-index: 0;
 }
 
 .map{
@@ -80,9 +85,10 @@ body{
 }
 
 .writing{
-  display: block;
-  position: absolute;
+  display:  center;
+  position: relative;
   padding-top: 50px;
-  width: 900px;
-  height: 900px;
+  width: 1080px;
+  height: 1080px;
+  overflow: hidden;
 }
