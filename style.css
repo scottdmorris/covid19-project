@@ -75,23 +75,23 @@ body{
   margin: auto;
   width: 900px;
   height: 600px;
-  overflow: hidden;
+  overflow: auto;
   z-index: 0;
 }
 
 .map{
   display: fixed;
   padding-top: 50px;
-  width: 1000px;
-  height: 1080px;
+  width: 900px;
+  height: 800px;
   overflow: auto;
 }
 
 .writing{
-  display:  center;
+  display:  fixed;
   position: relative;
   padding-top: 50px;
   width: 900px;
-  height: 600px;
-  overflow: hidden;
+  height: 1000px;
+  overflow: auto;
 }
