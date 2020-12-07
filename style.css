@@ -50,6 +50,7 @@ body{
   width: 500px;
   text-align: center;
   float: center;
+  margin: auto;
 }
 
 .content a {
@@ -57,16 +58,29 @@ body{
 }
 
 .stats{
-  top: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  width: 1000px;
+  top: 60%;
+  width: 1080px;
   height: 600px;
   overflow: hidden;
 }
 
 .map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
   padding-top: 50px;
-  width: 1000px;
-  height: 1000px;
+  width: 1920px;
+  height: 1080px;
+}
 
+.writing{
+  position: absolute;
+  padding-top: 50px;
+  width: 900px;
+  height: 900px;
 }
