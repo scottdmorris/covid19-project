@@ -20,6 +20,7 @@ body{
   background-color: black;
   position: absolute;
   overflow: hidden;
+  left: 50%;
 }
 
 .navbar a {
@@ -60,10 +61,14 @@ body{
   font-size: 30px;
 }
 
-.stats{
-  display: fixed;
+.flexbox{
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.stats{
+  display: fixed;
   position: absolute;
   top: 60%;
   left: 25%;
@@ -73,7 +78,7 @@ body{
   overflow: hidden;
   z-index: 0;
 }
-
+*/
 .map{
   display: flex;
   align-items: center;
