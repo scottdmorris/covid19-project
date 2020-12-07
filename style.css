@@ -78,12 +78,11 @@ body{
   overflow: hidden;
   z-index: 0;
 }
-*/
+
 .map{
-  display: flex;
+  display: absolute;
   align-items: center;
   justify-content: center;
-  position: absolute;
   padding-top: 50px;
   width: 1920px;
   height: 1080px;
